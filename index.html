@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 en Raya | Juego</title>
+    <link
+      rel="shortcut icon"
+      href="/img/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/lux/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+
+    
+
+  </head>
+  <body>
+    <header>
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="margin-left: 46%" href="#"
+            >3 en Raya<br>M<span style="text-transform: lowercase">ultijugador</span></a
+          >
+
+          <a > A<span style="text-transform: lowercase">ppWeb</span> 
+
+         
+            <span style="text-transform: lowercase"> created by </span>
+             RS-DEVS
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarColor01"></div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="game" id="game">
+      <div id="table" class="table">
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+        <div id="box" class="box"></div>
+      </div>
+    </div>
+    <div class="reload">
+      <button class="btn btn-info" type="button" id="reloadButton" onclick="location.reload()">
+        Reiniciar
+      </button>
+    </div>
+
+
+
+    
+
+
+    <div id="animation" class="animated bounceIn">
+      
+      ¡Partida terminada!
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+
+
+    </div>
+
+
+
+    <div style="
+    margin: -20rem;" id="confetti" class="confetti">
+       
+      </div>
+
+
+
+
+
+      <div id="desanimation" class="desanimation">
+
+        <div style="margin-top:-23rem;" class="container">
+
+            <div class="bubbles-container">
+                <svg class="bubbles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 701 1024" style="overflow: visible;">
+        
+                <g class="bubbles-large" stroke-width="7">
+                    <g>
+                        <g transform="translate(10 940)">
+                            <circle cx="35" cy="35" r="35"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(373 940)">
+                            <circle cx="35" cy="35" r="35"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(408 940)">
+                            <circle cx="35" cy="35" r="35"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(621 940)">
+                            <circle cx="35" cy="35" r="35"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(179 940)">
+                            <circle cx="35" cy="35" r="35"/>
+                        </g>
+                    </g>
+                </g>
+        
+                <g class="bubbles-small" stroke-width="4">
+                    <g>
+                        <g transform="translate(147 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(255 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(573 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(429 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(91 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(640 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(321 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(376 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(376 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g transform="translate(497 984)">
+                            <circle cx="15" cy="15" r="15"/>
+                        </g>
+                    </g>
+                </g>
+        
+            </svg>
+            </div>
+            <div style="text-align:center;">
+            <h1>Habéis perdido <br><br> Empate</h1>
+            </div>
+        </div>
+
+      </div>
+
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
